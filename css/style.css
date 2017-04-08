@@ -1,0 +1,359 @@
+body{
+	font-size: 14px;
+	color: #696969;
+	font-family: Arial,Verdana,Tahoma;
+    margin: 0;
+	padding: 0;
+    }
+
+/*   --------------    Header    -----------    */
+
+#header {
+	background: url(../images/Header.jpg) repeat-x top left ;
+    width: 100%;
+    height: 162px;
+    margin: 0;
+}
+
+/*------- LOGO --------*/
+
+#header h1 {
+    color: #FFF;
+    font-size: 40px;
+    font-family: Tahoma;
+    position: relative;
+    left: 490px;
+    padding-top: 10px;
+    float: left;
+}
+
+#header h1 span{
+	color: #bbbbbb;
+	font-size: 30px;
+}
+
+#header h1 .grande{
+	font-size: 80px;
+	color: #bbbbbb;
+	font-style: "Myriad Pro Regular" ,Arial ;
+	text-transform: uppercase;
+	margin: 0;
+
+}
+
+
+/*------- MENU --------*/
+
+
+#menu{
+	position: relative;
+    left: 900px;
+	width: 550px;
+	height: 90px;
+	float: left;
+	margin-top: 35px;
+
+}
+#menu li {
+	font-family: Arial;
+	text-align: center;
+	list-style-type: none;
+	color: #bbb;
+	font-size: 15px;
+	float: left;
+	margin: auto;
+	margin-right: 3mm;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+#menu ul li .acceuil{
+	background:url(../images/home.png);
+	width: 36px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#menu ul li .news{
+	background:url(../images/portfolio.png);
+	width : 31px;
+	height: 31px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+
+}
+
+#menu ul li .services{
+	background:url(../images/profil.png);
+	width : 24px;
+	height: 28px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+}
+
+#menu ul li .produits{
+	background:url(../images/reglage.png);
+	width : 30px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+}
+
+#menu ul li .contact{
+	background:url(../images/contact.png);
+	width : 32px;
+	height: 22px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+}
+
+#menu li .petite {
+	font-size: 12px;
+	text-transform: uppercase;
+    color :#666;
+	margin : 0;
+}
+
+/*--------- Hover Du souris ----------*/
+#menu ul li:hover .img{
+	background-position: bottom left;
+}
+
+#menu ul li:hover .petite{
+ color : #497e04;
+}
+
+#menu ul li:hover .titre{
+ color : #ffffff;
+ font-size: 17px;
+}
+
+
+/*------- Contener --------*/
+
+/*---------- Slide ---------*/
+
+#contener{
+    width: 950px;
+    height: 600px;
+    margin : 0 auto;
+	padding: 0;
+}
+
+#contenerSlide {
+	height: 420px;
+    background-color: #3a7000;
+}
+
+#slide {
+	position: absolute;
+	left: 25%;
+	margin-left: 25%;
+	height: 420px;
+	width: 100%;
+	background: url(../images/slide.jpg) no-repeat;
+	margin: 0 auto;
+}
+
+/*-------- New pour les information -------*/
+#contener #informations .news { 
+  width: 	200px;
+  height: 	200px;
+  float: left;
+  margin-right: 33.5px;
+  transform: translateX(20px);
+ }
+
+#contener #informations .news .cercle {
+	width: 	60px;
+	height: 60px;
+	background-color: #60b000;
+	border-radius: 30px;
+	float: left;
+
+}
+
+#contener #informations .news .cercle span{ 
+
+	color :	#ffffff; 
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+    left: 30%;
+    top: 20%;
+    font-weight: bold;
+    font-family: serif;
+ }
+
+ #contener #informations .news .Gtitre{
+
+ 	font-size: 28px;
+ 	color: #000;
+ 	font-family: "Myriad Pro Regular";
+ 	font-weight: bolder;
+ 	margin-left: 70px;
+
+ }
+
+ a{
+ 	color:green;
+ }
+
+ .news .contenu {
+ 	margin-top :20px;
+ }
+
+ #contener {
+ 	margin-top: 48px;
+ }
+
+ /* --------- Description  --------*/ 
+
+ #description {
+ 	height: 300px;
+ 	float: left;
+
+ }
+
+ #description .desc {
+ 	float: left;
+ }
+
+#description #welcome {
+	margin-right: 5mm;
+	width: 700px;
+	height: 300px;
+}
+
+
+#description #terminologie {
+	width: 225px;
+	height: 300px;
+}
+
+#welcome h1 {
+	color: black;
+	font-size: 40px;
+	font-family: "Myriad Pro Regular";
+}
+
+#terminologie h1 {
+	color: black;
+	font-size: 40px;
+	font-family: "Myriad Pro Regular";
+}
+
+#infoPhoto { 
+
+border-top : 1px solid #e5e5e5;
+padding-top: 5mm;
+ }
+
+#welcome #infoPhoto #photo {
+
+	background: url(../images/img-art.jpg);
+	height: 182px;
+	width: 220px;
+	float: left;
+	margin-left: 2mm;
+	margin-right: 3mm;
+
+}
+
+#terminologie #sp{
+  height: 80px;
+  width: 220px;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  font-family: "Trebuchet MS Italic";
+  font-style: italic;
+  padding: 30px;
+
+}
+
+#ki {
+	margin-top: 30px;
+	margin-left: 20px;
+}
+#ki img
+{
+	height: 20px;
+	width: 	20px;
+
+}
+
+
+
+/* -------- Remplir le footer --------*/
+
+#footer {
+	background: url(../images/footer.jpg);
+	height: 368px;
+	width: 100%;	
+}
+#footer #rebriqueFooter
+{
+	margin-top: 30px;
+	transform: translate(530px,50px);
+
+}
+
+#footer .footDiv {
+	width: 	220px;
+	height: 200px;
+	float: left;
+	margin-right: 5mm;
+}
+
+.footDiv h2 {
+	color: #ffffff;
+	font-family: serif;
+	background-size: 35px;
+
+}
+
+.footDiv ul li {
+	border-top: 1px solid #bbb;
+	padding-top: 2mm;
+    margin-bottom: 2mm;
+    list-style-type: none;
+}
+
+.footDiv ul li span{
+	text-decoration: underline;
+	font-size: 9px;
+}
+
+
+#fb{
+	list-style-image: url(../images/facebook.png);
+   }
+#lk{
+	list-style-image: url(../images/in.png);
+   }
+#ghb{
+	list-style-image: url(../images/damier.png);
+   }
+#twt{
+	list-style-image: url(../images/twitter.png);
+   }
+
+.footDiv #text{
+	width: 100%;
+	height :30px;
+	font-family: sans-serif;
+}
+
+.footDiv #btn{
+	font-family: sans-serif;
+	position: relative;
+	position: relative;
+    left: 157px;
+    height: 30px;
+}
