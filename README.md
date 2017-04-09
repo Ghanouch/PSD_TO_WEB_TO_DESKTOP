@@ -7,4 +7,4 @@ Ce mini projet consistait à réaliser trois parties :
 --Pour avoir la version desktop  :
 1-vous devez ouvrir la ligne de commande
 2-Entrez au repertoire courant
-3-tapez la commande "electron start" 
+3-tapez la commande "electron start".
