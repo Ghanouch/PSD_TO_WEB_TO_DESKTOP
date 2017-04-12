@@ -10,4 +10,6 @@ Pour avoir la version desktop  :
 
 2-Entrez au repertoire courant.
 
-3-tapez la commande "electron start"
+3-tapez la commande "electron start".
+
+HIi
